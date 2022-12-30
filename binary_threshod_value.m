@@ -2,9 +2,14 @@
 
 %  Convert an image to binary image, specifying threshold value.
 
-clc
+clc 
 clear
-I = imread('5.png');
+I=imread('pic/flow.jpeg');
+level = graythresh(I);
+J=im2bw(I);
+K=im2bw(I,0.6); 
+L=im2bw(I,level);
 imshow(I);
-J = im2bw(I);
-imshow(J),figure,imshow(J);
+figure, imshow(J); 
+figure, imshow(K); 
+figure, imshow(L);

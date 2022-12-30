@@ -2,6 +2,6 @@
 
 % How to read and show an image in MATLAB
 
-i=imread('1.png');
+i=imread('pic/flow.jpeg');
 
 imshow(i)

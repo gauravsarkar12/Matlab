@@ -5,7 +5,7 @@
 clc
 clear
 
-I=imread ('1.png');
-J=imread ('2.png');
+I=imread ('pic/flow.jpeg');
+J=imread ('pic/flows.jpeg');
 
 imshow (I), figure, imshow(J);

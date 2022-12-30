@@ -5,6 +5,6 @@
 clc
 clear
 
-I=imread ('3.png');
+I=imread ('pic/flow.jpeg');
 
 I (1,1) %show value of the pixel at position (1,1)

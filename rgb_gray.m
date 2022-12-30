@@ -5,7 +5,7 @@
 clc
 clear
 
-I=imread ('4.png');
+I=imread ('pic/flow.jpeg');
 imshow (I) ;
 
 J=rgb2gray (I) ;

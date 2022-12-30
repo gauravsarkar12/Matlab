@@ -5,7 +5,7 @@
 clc
 clear
 
-I=imread('5.png');
+I=imread('pic/flow.jpeg');
 J=im2bw(I);
 
 subplot (1,2,1), imshow(I)
